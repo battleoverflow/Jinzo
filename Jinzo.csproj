@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Jinzo</PackageId>
+    <Version>0.1.0</Version>
+    <OutputType>Library</OutputType>
+    <Authors>azazelm3dj3d</Authors>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="README.md">
+      <Pack>true</Pack>
+      <PackagePath>/</PackagePath>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.48" />
+    <PackageReference Include="NReco.PdfGenerator" Version="1.2.1" />
+  </ItemGroup>
+
+</Project>
