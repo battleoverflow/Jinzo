@@ -14,10 +14,12 @@
     <IsPackable>true</IsPackable>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath=""/>
+    <None Include="LICENSE" Pack="true" PackagePath=""/>
     <PackageReference Include="HtmlAgilityPack" Version="1.11.48" />
     <PackageReference Include="NReco.PdfGenerator" Version="1.2.1" />
   </ItemGroup>
