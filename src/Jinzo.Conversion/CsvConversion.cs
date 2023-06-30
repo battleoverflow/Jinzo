@@ -1,11 +1,11 @@
 using System;
 
-namespace JinzoConversion {
-    class CsvConversion
+namespace Jinzo.Conversion;
+
+class CsvConversion
+{
+    public static void Convert(string htmlFile, string outputFile)
     {
-        public static void Convert(string htmlFile, string outputFile)
-        {
-            throw new NotImplementedException();
-        }
+        throw new NotImplementedException();
     }
 }

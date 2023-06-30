@@ -1,11 +1,11 @@
 using System;
 
-namespace JinzoConversion {
-    class XmlConversion
+namespace Jinzo.Conversion;
+
+class XmlConversion
+{
+    public static void Convert(string htmlFile, string outputFile)
     {
-        public static void Convert(string htmlFile, string outputFile)
-        {
-            throw new NotImplementedException();
-        }
+        throw new NotImplementedException();
     }
 }
