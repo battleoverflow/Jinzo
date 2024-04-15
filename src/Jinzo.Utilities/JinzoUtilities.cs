@@ -1,7 +1,7 @@
 /*
-    Project: Jinzo (https://github.com/azazelm3dj3d/Jinzo)
+    Project: Jinzo (https://github.com/battleoverflow/Jinzo)
     License: BSD 2-Clause
-    Author: azazelm3dj3d (https://github.com/azazelm3dj3d)
+    Author: battleoverflow (https://github.com/battleoverflow)
 */
 
 using System;
@@ -9,10 +9,8 @@ using HtmlAgilityPack;
 
 namespace Jinzo.Utilities;
 
-class OsValidation
-{
-    public static bool GetOS(string os)
-    {
+class OsValidation {
+    public static bool GetOS(string os) {
         string osInfo = System.Runtime.InteropServices.RuntimeInformation.OSDescription;
 
         if (osInfo.Contains(os)) {
@@ -23,10 +21,8 @@ class OsValidation
     }
 }
 
-class FileValidation
-{
-    public static bool ValidateHtml(string htmlFile)
-    {
+class FileValidation {
+    public static bool ValidateHtml(string htmlFile) {
         if (System.IO.File.Exists(htmlFile)) {
             return true;
         } else {
@@ -36,10 +32,8 @@ class FileValidation
     }
 }
 
-class ReadFileContents
-{
-    public static string HtmlContent(string htmlFile)
-    {
+class ReadFileContents {
+    public static string HtmlContent(string htmlFile) {
         // Load the HTML file
         var htmlDoc = new HtmlDocument();
         htmlDoc.Load(htmlFile);

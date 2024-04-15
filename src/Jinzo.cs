@@ -1,7 +1,7 @@
 /*
-    Project: Jinzo (https://github.com/azazelm3dj3d/Jinzo)
+    Project: Jinzo (https://github.com/battleoverflow/Jinzo)
     License: BSD 2-Clause
-    Author: azazelm3dj3d (https://github.com/azazelm3dj3d)
+    Author: battleoverflow (https://github.com/battleoverflow)
 */
 
 using System;
@@ -9,10 +9,8 @@ using Jinzo.Conversion;
 
 namespace Jinzo;
 
-public static class Jinzo
-{
-    public static void Convert(string htmlFile, string outputFile, string? format = null)
-    {
+public static class Jinzo {
+    public static void Convert(string htmlFile, string outputFile, string? format = null) {
         Conversion.FileConversion.Convert(htmlFile, outputFile, format);
     }
 }

@@ -1,17 +1,15 @@
 /*
-    Project: Jinzo (https://github.com/azazelm3dj3d/Jinzo)
+    Project: Jinzo (https://github.com/battleoverflow/Jinzo)
     License: BSD 2-Clause
-    Author: azazelm3dj3d (https://github.com/azazelm3dj3d)
+    Author: battleoverflow (https://github.com/battleoverflow)
 */
 
 using System;
 
 namespace Jinzo.Conversion;
 
-class FileConversion
-{
-    public static void Convert(string htmlFile, string outputFile, string? format = null)
-    {
+class FileConversion {
+    public static void Convert(string htmlFile, string outputFile, string? format = null) {
         // Approved file types
         // These are complete
         string[] fileTypes = {

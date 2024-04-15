@@ -1,7 +1,7 @@
 /*
-    Project: Jinzo (https://github.com/azazelm3dj3d/Jinzo)
+    Project: Jinzo (https://github.com/battleoverflow/Jinzo)
     License: BSD 2-Clause
-    Author: azazelm3dj3d (https://github.com/azazelm3dj3d)
+    Author: battleoverflow (https://github.com/battleoverflow)
 */
 
 using System;
@@ -9,10 +9,8 @@ using Jinzo.Utilities;
 
 namespace Jinzo.Conversion;
 
-class PdfConversion
-{
-    public static void Convert(string htmlFile, string outputFile)
-    {
+class PdfConversion {
+    public static void Convert(string htmlFile, string outputFile) {
         // Validate HTML file exists
         if (FileValidation.ValidateHtml(htmlFile)) {
             // Check operating system runtime
